@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7bh2DyoiLhg=",
+  "dgSpecHash": "7SNS90wSXXc=",
   "success": true,
-  "projectFilePath": "/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/day15_MovieShopApp/MovieShopApplication/ApplicationCore/ApplicationCore.csproj",
+  "projectFilePath": "/Users/ziyuzhao/Desktop/ANTRA ICC/MovieShopApp/MovieShopApplication/ApplicationCore/ApplicationCore.csproj",
   "expectedPackageFiles": [
     "/Users/ziyuzhao/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/ziyuzhao/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

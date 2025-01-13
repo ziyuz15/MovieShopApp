@@ -4085,11 +4085,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/day15_MovieShopApp/MovieShopApplication/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "/Users/ziyuzhao/Desktop/ANTRA ICC/MovieShopApp/MovieShopApplication/Infrastructure/Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/day15_MovieShopApp/MovieShopApplication/Infrastructure/Infrastructure.csproj",
+      "projectPath": "/Users/ziyuzhao/Desktop/ANTRA ICC/MovieShopApp/MovieShopApplication/Infrastructure/Infrastructure.csproj",
       "packagesPath": "/Users/ziyuzhao/.nuget/packages/",
-      "outputPath": "/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/day15_MovieShopApp/MovieShopApplication/Infrastructure/obj/",
+      "outputPath": "/Users/ziyuzhao/Desktop/ANTRA ICC/MovieShopApp/MovieShopApplication/Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
@@ -4105,8 +4105,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/day15_MovieShopApp/MovieShopApplication/ApplicationCore/ApplicationCore.csproj": {
-              "projectPath": "/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/day15_MovieShopApp/MovieShopApplication/ApplicationCore/ApplicationCore.csproj"
+            "/Users/ziyuzhao/Desktop/ANTRA ICC/MovieShopApp/MovieShopApplication/ApplicationCore/ApplicationCore.csproj": {
+              "projectPath": "/Users/ziyuzhao/Desktop/ANTRA ICC/MovieShopApp/MovieShopApplication/ApplicationCore/ApplicationCore.csproj"
             }
           }
         }

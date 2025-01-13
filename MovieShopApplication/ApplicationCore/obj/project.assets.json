@@ -4063,11 +4063,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/day15_MovieShopApp/MovieShopApplication/ApplicationCore/ApplicationCore.csproj",
+      "projectUniqueName": "/Users/ziyuzhao/Desktop/ANTRA ICC/MovieShopApp/MovieShopApplication/ApplicationCore/ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/day15_MovieShopApp/MovieShopApplication/ApplicationCore/ApplicationCore.csproj",
+      "projectPath": "/Users/ziyuzhao/Desktop/ANTRA ICC/MovieShopApp/MovieShopApplication/ApplicationCore/ApplicationCore.csproj",
       "packagesPath": "/Users/ziyuzhao/.nuget/packages/",
-      "outputPath": "/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/day15_MovieShopApp/MovieShopApplication/ApplicationCore/obj/",
+      "outputPath": "/Users/ziyuzhao/Desktop/ANTRA ICC/MovieShopApp/MovieShopApplication/ApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
