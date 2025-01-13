@@ -5,12 +5,22 @@ using System.ComponentModel.DataAnnotations.Schema;
 public class Cast
 {
     public int Id { get; set; }
-    [Required(ErrorMessage = "Name is required")]
-    [Column(TypeName = "varchar(100)")]
-    public string Name { get; set; }
+    
     [Required(ErrorMessage = "Gender is required")]
-    [Column(TypeName = "varchar(10)")]
+    [Column(TypeName = "varchar(MAX)")]
     public string Gender { get; set; }
-    [Column(TypeName = "varchar(2000)")]
+    
+    [Required(ErrorMessage = "Name is required")]
+    [Column(TypeName = "varchar(128)")]
+    public string Name { get; set; }
+    
+    [Required]
+    [Column(TypeName = "varchar(2084)")]
     public string ProfilePath { get; set; }
+    
+    [Required]
+    [Column(TypeName = "varchar(MAX)")]
+    public string TmdUrl { get; set; }
+    
+    public ICollection<MovieCast> MovieCasts { get; set; }
 }

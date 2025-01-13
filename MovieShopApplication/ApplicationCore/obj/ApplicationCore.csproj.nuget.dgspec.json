@@ -13,6 +13,7 @@
         "packagesPath": "/Users/ziyuzhao/.nuget/packages/",
         "outputPath": "/Users/ziyuzhao/Desktop/ANTRA ICC/MovieShopApp/MovieShopApplication/ApplicationCore/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/ziyuzhao/.nuget/NuGet/NuGet.Config"
         ],

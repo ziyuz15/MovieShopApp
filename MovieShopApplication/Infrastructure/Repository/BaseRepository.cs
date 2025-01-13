@@ -6,11 +6,11 @@ namespace Infrastructure.Repository;
 
 public class BaseRepository<T>: IRepository<T> where T: class
 {
-    private readonly MovieDbContext movieDbContext;
+    private readonly MovieDbContext _movieDbContext;
 
     public BaseRepository(MovieDbContext movieDbContext)
     {
-        this.movieDbContext = movieDbContext;
+        this._movieDbContext = movieDbContext;
     }
     
     public int Delete(int id)
@@ -18,36 +18,36 @@ public class BaseRepository<T>: IRepository<T> where T: class
         T obj = GetById(id);
         if (obj != null)
         {
-            movieDbContext.Set<T>().Remove(obj);
+            _movieDbContext.Set<T>().Remove(obj);
         }
-        return movieDbContext.SaveChanges();
+        return _movieDbContext.SaveChanges();
     }
     
     public IEnumerable<T> GetAll()
     {
-        return movieDbContext.Set<T>().ToList();
+        return _movieDbContext.Set<T>().ToList();
     }
 
     public int Insert(T entity)
     {
-        movieDbContext.Set<T>().Add(entity);
-        return movieDbContext.SaveChanges();
+        _movieDbContext.Set<T>().Add(entity);
+        return _movieDbContext.SaveChanges();
     }
 
     public int Update(T entity, int id)
     {
-        movieDbContext.Set<T>().Entry(entity).State = EntityState.Modified;
-        return movieDbContext.SaveChanges();
+        _movieDbContext.Set<T>().Entry(entity).State = EntityState.Modified;
+        return _movieDbContext.SaveChanges();
     }
 
     public T GetById(int id)
     {
-        return movieDbContext.Set<T>().Find(id);
+        return _movieDbContext.Set<T>().Find(id);
         // return movieDbContext.Set<T>().Where(x => x.Id == id).FirstOrDefault();
     }
 
     public IEnumerable<T> Search(Func<T, bool> predicate)
     {
-        return movieDbContext.Set<T>().Where(predicate);
+        return _movieDbContext.Set<T>().Where(predicate);
     }
 }

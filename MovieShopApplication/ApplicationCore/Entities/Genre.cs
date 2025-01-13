@@ -5,9 +5,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 public class Genre
 {
     public int Id { get; set; }
-    [Required(ErrorMessage = "Genre is required")]
-    [Column(TypeName = "varchar(50)")]
+    
+    [Required(ErrorMessage = "Genre name is required")]
+    [Column(TypeName = "varchar(24)")]
     public string Name { get; set; }
 
-    public List<Movie> Movies { get; set; } = new List<Movie>();
+    public ICollection<MovieGenre> MovieGenre { get; set; }
 }
